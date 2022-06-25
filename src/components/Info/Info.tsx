@@ -38,6 +38,7 @@ export function Info() {
         _hover={{ opacity: "0.8" }}
         transition="ease 1s"
         py="40px"
+        fontFamily="Space Grotesk"
         px="63px"
       >
         RETIRAR
@@ -48,6 +49,7 @@ export function Info() {
         fontWeight="400"
         fontSize="20px"
         _hover={{ opacity: "0.8" }}
+        fontFamily="Space Grotesk"
         transition="ease 0.1s"
         py="20px"
       >

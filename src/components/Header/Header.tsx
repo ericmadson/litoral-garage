@@ -7,7 +7,12 @@ export function Header() {
         <Text fontWeight="500" color="#F5F5F5" fontSize="20px">
           Seja bem vindo à
         </Text>
-        <Text color="#3687FF" fontWeight="700" fontSize="50px">
+        <Text
+          color="#3687FF"
+          fontFamily="Space Grotesk"
+          fontWeight="700"
+          fontSize="50px"
+        >
           GARAGEM
         </Text>
       </VStack>

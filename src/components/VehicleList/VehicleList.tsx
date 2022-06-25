@@ -19,7 +19,7 @@ export function VehicleList() {
         <Image src={bar} w="250px" h="3px"></Image>
       </HStack>
       <Flex overflowY="scroll" h="560px" maxW="430px">
-        <VStack spacing={2} align="flex-start">
+        <VStack spacing={2} align="flex-start" w="100%" paddingRight="10px">
           {carsList.map((car: carsProps) => {
             return (
               <Button
@@ -27,12 +27,13 @@ export function VehicleList() {
                 color="#C7C7C7"
                 fontWeight="500"
                 fontSize="20px"
+                w="100%"
                 border-radius="2px"
                 _hover={{ background: "#FFFFFF", color: "#002C55" }}
                 transition="ease 1s"
-                py="35px"
-                pl="25px"
-                pr="300px"
+                justifyContent="flex-start"
+                h="68px"
+                p="21px 24px"
               >
                 {car.title}
               </Button>
